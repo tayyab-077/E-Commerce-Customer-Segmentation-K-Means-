@@ -1,9 +1,5 @@
 # 🛍️ Customer Segmentation with RFM & KMeans
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-success)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
 🎯 **Goal:** To segment customers into distinct groups using their purchasing behavior, enabling businesses to personalize marketing and improve customer engagement.
 
 ---
@@ -24,43 +20,13 @@ We then apply **KMeans Clustering** to identify groups like:
 
 ---
 
-## 🚀 How It Works
+## 🧪 Tech Stack
 
-### 1. 📂 Data Cleaning
-- Removed canceled orders (`InvoiceNo` starting with "C")
-- Handled missing values
-- Calculated total spending per invoice
-
-### 2. 📊 RFM Analysis
-```python
-Recency = snapshot_date - customer's last purchase  
-Frequency = total number of invoices per customer  
-Monetary = total spending by the customer
-
-# 🛍️ Customer Segmentation with RFM & KMeans
-
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-success)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-🎯 **Goal:** To segment customers into distinct groups using their purchasing behavior, enabling businesses to personalize marketing and improve customer engagement.
-
----
-
-## 🧠 What This Project Does
-
-This project analyzes customer transactions and segments them into **behavioral clusters** based on:
-
-- 🕒 **Recency** — How recently a customer made a purchase  
-- 🔁 **Frequency** — How often they purchase  
-- 💰 **Monetary** — How much they spend
-
-We then apply **KMeans Clustering** to identify groups like:
-- ✅ Loyal Customers
-- ⚠️ At-risk Customers
-- 🆕 New Shoppers
-- 💸 High Spenders
-
+- **Python**
+- **Pandas, NumPy** – data processing
+- **Matplotlib, Seaborn** – data visualization
+- **Scikit-learn** – machine learning
+- **Streamlit** – interactive dashboard
 ---
 
 ## 🚀 How It Works
@@ -71,11 +37,10 @@ We then apply **KMeans Clustering** to identify groups like:
 - Calculated total spending per invoice
 
 📊 RFM Analysis
-
+```python
 Recency = snapshot_date - customer's last purchase  
 Frequency = total number of invoices per customer  
 Monetary = total spending by the customer
-
 
 📊 Feature Scaling
 
